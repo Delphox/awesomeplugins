@@ -11,7 +11,7 @@ import com.aliucord.Utils
 class spanishbutton : Plugin() {
     override fun start(c: Context) {
     	Utils.threadPool.execute { 
-		Http.simpleDownload("https://github.com/OmegaSunkey/awesomeplugins/raw/main/Aliucord.zip", File(c.getCodeCacheDir(), "Aliucord.zip"))
+		Http.simpleDownload("https://github.com/Delphox/awesomeplugins/raw/main/Aliucord.zip", File(c.getCodeCacheDir(), "Aliucord.zip"))
 	}
     }
     override fun stop(c: Context) {
